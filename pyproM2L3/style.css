@@ -1,0 +1,31 @@
+body {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 11px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #847cff; /* Kolor tła strony internetowej */
+    color: #333333; /* Kolor tła strony internetowej*/ 
+}
+h1 :hover{
+    color: #00ff00; /* Kolor nagłówka */
+    font-size: 24px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+    animation: color-change 3s infinite;
+}
+h2 {
+    color: #00fff2; /* Kolor nagłówka */
+    font-size: 20px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
+h3 {
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+    color: #ff000069; /* Kolor nagłówka */
+    font-size: 18px; /* Rozmiar czcionki nagłówka */
+    font-family: Georgia, serif; /* Rodzina czcionek używana w nagłówku */
+}
+h1 :hover{
+  animation: color-change 3s infinite;
+}
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
